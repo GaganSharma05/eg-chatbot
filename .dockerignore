@@ -1,0 +1,16 @@
+.git
+.env
+.env.*
+!.env.example
+!.env.production.example
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.coverage
+coverage.xml
+tests
+app.zip
+README.md
+deploy

@@ -1,0 +1,188 @@
+{
+  "groupName": "Exotic Grove",
+  "tagline": "Swaasth khaoo Tann Mann Jagaao - Fresh, farm-to-table delights!",
+  "imageBasePath": "/images/products/",
+  "whatsappNumber": "+919920244538",
+  "products": [
+    {
+      "id": "Plums",
+      "name": "Red & Dark Purple Plums",
+      "category": "Fruits",
+      "variety": "Kashmiri",
+      "unit": "1 Kg",
+      "price": 250,
+      "media": ["plum.png", "plum2.png"],
+      "description": "Fresh juicy Kashmiri plums."
+    },
+    {
+      "id": "Guava",
+      "name": "Peru (Guava)",
+      "category": "Fruits",
+      "variety": "Indian",
+      "unit": "1 Kg",
+      "price": 95,
+      "media": ["guava.png"],
+      "description": "Fresh, juicy and naturally sweet guavas."
+    },
+    {
+      "id": "Pomegranates",
+      "name": "Pomegranates",
+      "category": "Fruits",
+      "variety": "Indian",
+      "unit": "1 Kg",
+      "price": 160,
+      "media": ["pomegranates.png"],
+      "description": "Fresh premium pomegranates rich in antioxidants."
+    },
+    {
+      "id": "Pomegranate-Pearls",
+      "name": "Peeled Pomegranate Red Pearls",
+      "category": "Fruits",
+      "variety": "Fresh",
+      "unit": "200 gms",
+      "price": 110,
+      "media": ["pomegranate_pearls.png"],
+      "description": "Freshly peeled pomegranate pearls."
+    },
+
+    {
+      "id": "Imported-Blueberries",
+      "name": "Imported Blueberries",
+      "category": "Exotic",
+      "variety": "Canadian",
+      "unit": "1 Pack (140 gms)",
+      "price": 225,
+      "media": ["blueberry.png", "bluebery1.png"],
+      "description": "Sweet and juicy imported blueberries."
+    },
+    {
+      "id": "Imported-Orange",
+      "name": "Imported Orange",
+      "category": "Exotic",
+      "variety": "Mandarin",
+      "unit": "1 Kg (~5 Pieces)",
+      "price": 230,
+      "media": [
+        "OrangesMandrin.png",
+        "chinese orange(mandarin1).png"
+      ],
+      "description": "Premium imported Mandarin oranges."
+    },
+    {
+      "id": "Imported-Apples",
+      "name": "Imported Apples (Queen)",
+      "category": "Exotic",
+      "variety": "Imported",
+      "unit": "1 Kg",
+      "price": 280,
+      "media": [
+        "applesqueen.png",
+        "apples.png",
+        "apples2.png",
+        "apple3.png"
+      ],
+      "description": "Premium imported Queen apples."
+    },
+    {
+      "id": "Dragonfruit",
+      "name": "Dragon Fruit",
+      "category": "Exotic",
+      "variety": "Vietnam",
+      "unit": "2 Pieces",
+      "price": 140,
+      "media": ["dragonfruit.png"],
+      "description": "Premium imported dragon fruit."
+    },
+    {
+      "id": "Avocados",
+      "name": "Avocados",
+      "category": "Exotic",
+      "variety": "Imported",
+      "unit": "2 Pieces",
+      "price": 145,
+      "media": ["avocados.png"],
+      "description": "Fresh premium imported Hass avocados."
+    },
+    {
+      "id": "Golden-Kiwi",
+      "name": "Golden Kiwi",
+      "category": "Exotic",
+      "variety": "New Zealand",
+      "unit": "1 Box (3 Pieces)",
+      "price": 177,
+      "media": ["kiwi.png"],
+      "description": "Premium kiwis, increase platelets and rich vitamin C."
+    },
+    {
+      "id": "Kiwi-Green",
+      "name": "Green Kiwi",
+      "category": "Exotic",
+      "variety": "New Zealand",
+      "unit": "1 Box (3 Pieces)",
+      "price": 110,
+      "media": ["kiwi.png", "kiwis2.png"],
+      "description": "Premium kiwis, increase platelets and rich vitamin C."
+    },
+
+    {
+      "id": "Kismish",
+      "name": "Kismish - Golden Raisin",
+      "category": "Dry",
+      "variety": "Golden Raisin",
+      "unit": "500 gms",
+      "price": 295,
+      "media": ["kishmish.png", "gif2.gif"],
+      "description": "Premium golden raisins, naturally sweet."
+    },
+    {
+      "id": "Kaju",
+      "name": "(Kaju) Cashew Nuts",
+      "category": "Dry",
+      "variety": "W-210",
+      "unit": "500 gms",
+      "price": 595,
+      "media": ["kaju.png", "cashw1.png", "cashw2.png"],
+      "description": "Premium jumbo W-210 cashew nuts."
+    },
+    {
+      "id": "Walnuts",
+      "name": "Walnuts (2P Kernel)",
+      "category": "Dry",
+      "variety": "Kashmiri",
+      "unit": "500 gms",
+      "price": 1695,
+      "media": ["walnuts.png"],
+      "description": "Premium Kashmiri walnut kernels."
+    },
+    {
+      "id": "American-Almonds",
+      "name": "American Almonds",
+      "category": "Dry",
+      "variety": "American",
+      "unit": "1 Kg",
+      "price": 945,
+      "media": ["badam.png"],
+      "description": "Premium crunchy California almonds."
+    },
+    {
+      "id": "Foxnuts",
+      "name": "Foxnuts (Makhana)",
+      "category": "Dry",
+      "variety": "Indian",
+      "unit": "500 gms",
+      "price": 595,
+      "media": ["foxnuts.png"],
+      "description": "Large premium foxnuts (Makhana)."
+    },
+    {
+      "id": "Dry-fruits-Chocolate",
+      "name": "Dry Fruits Chocolate (Energy Bar)",
+      "category": "Dry",
+      "variety": "Homemade",
+      "unit": "250 gms",
+      "price": 445,
+      "media": ["energybar1.png", "energybar.png"],
+      "description": "Homemade dry fruit chocolate energy bar rich in protein and healthy fats."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+coverage.xml
+.coverage
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+service-account.json
+*.pem
+*.key
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.vscode/
+.DS_Store
+
+# Generated archives and build output
+app.zip
+dist/
+build/
+
+# Local logs
+*.log

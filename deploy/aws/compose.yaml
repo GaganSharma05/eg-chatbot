@@ -1,0 +1,50 @@
+services:
+  api:
+    image: ${ECR_IMAGE:?Set ECR_IMAGE to the immutable ECR image URI}
+    env_file:
+      - /opt/eg-chatbot/runtime.env
+    environment:
+      APP_ENV: production
+      PORT: 8000
+      WEB_CONCURRENCY: 1
+      OLLAMA_BASE_URL: http://ollama:11434
+      CATALOG_PATH: app/services/default.json
+      PRODUCT_VOCABULARY_PATH: app/services/product_vocabulary.json
+    ports:
+      - "8000:8000"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/ready', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: ${AWS_REGION:?Set AWS_REGION}
+        awslogs-group: /exotic-grove/eg-chatbot
+        awslogs-stream: api
+
+  ollama:
+    image: ollama/ollama:0.12.3
+    volumes:
+      - ollama-data:/root/.ollama
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+    logging:
+      driver: awslogs
+      options:
+        awslogs-region: ${AWS_REGION:?Set AWS_REGION}
+        awslogs-group: /exotic-grove/eg-chatbot
+        awslogs-stream: ollama
+
+volumes:
+  ollama-data:

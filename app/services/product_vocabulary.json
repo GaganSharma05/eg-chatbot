@@ -1,0 +1,27 @@
+{
+  "products": [
+    {"canonical_id": "mango", "aliases": ["mango", "mangoes"], "domain": "fresh_fruit", "catalog_product_ids": []},
+    {"canonical_id": "avocado", "aliases": ["avocado", "avocados"], "domain": "fresh_fruit", "catalog_product_ids": ["Avocados"]},
+    {"canonical_id": "watermelon", "aliases": ["watermelon", "watermelons"], "domain": "fresh_fruit", "catalog_product_ids": []},
+    {"canonical_id": "dragon_fruit", "aliases": ["dragon fruit", "dragonfruit"], "domain": "exotic_food", "catalog_product_ids": ["Dragonfruit"]},
+    {"canonical_id": "rambutan", "aliases": ["rambutan", "rambutans"], "domain": "exotic_food", "catalog_product_ids": []},
+    {"canonical_id": "blueberry", "aliases": ["blueberry", "blueberries"], "domain": "fresh_fruit", "catalog_product_ids": ["Imported-Blueberries"]},
+    {"canonical_id": "pomegranate", "aliases": ["pomegranate", "pomegranates"], "domain": "fresh_fruit", "catalog_product_ids": ["Pomegranates"]},
+    {"canonical_id": "apple", "aliases": ["apple", "apples"], "domain": "fresh_fruit", "catalog_product_ids": ["Imported-Apples"]},
+    {"canonical_id": "banana", "aliases": ["banana", "bananas"], "domain": "fresh_fruit", "catalog_product_ids": []},
+    {"canonical_id": "spinach", "aliases": ["spinach"], "domain": "vegetable", "catalog_product_ids": []},
+    {"canonical_id": "kale", "aliases": ["kale"], "domain": "vegetable", "catalog_product_ids": []},
+    {"canonical_id": "broccoli", "aliases": ["broccoli"], "domain": "vegetable", "catalog_product_ids": []},
+    {"canonical_id": "potato", "aliases": ["potato", "potatoes"], "domain": "vegetable", "catalog_product_ids": []},
+    {"canonical_id": "sweet_potato", "aliases": ["sweet potato", "sweet potatoes"], "domain": "vegetable", "catalog_product_ids": []},
+    {"canonical_id": "carrot", "aliases": ["carrot", "carrots"], "domain": "vegetable", "catalog_product_ids": []},
+    {"canonical_id": "bell_pepper", "aliases": ["bell pepper", "bell peppers", "capsicum"], "domain": "vegetable", "catalog_product_ids": []},
+    {"canonical_id": "walnut", "aliases": ["walnut", "walnuts"], "domain": "nut", "catalog_product_ids": ["Walnuts"]},
+    {"canonical_id": "almond", "aliases": ["almond", "almonds"], "domain": "nut", "catalog_product_ids": ["American-Almonds"]},
+    {"canonical_id": "cashew", "aliases": ["cashew", "cashews", "kaju"], "domain": "nut", "catalog_product_ids": ["Kaju"]},
+    {"canonical_id": "raisin", "aliases": ["raisin", "raisins", "kismish", "kishmish"], "domain": "dry_fruit", "catalog_product_ids": ["Kismish"]},
+    {"canonical_id": "date", "aliases": ["date", "dates"], "domain": "dry_fruit", "catalog_product_ids": []},
+    {"canonical_id": "saffron", "aliases": ["saffron", "kesar"], "domain": "gourmet_food", "catalog_product_ids": []},
+    {"canonical_id": "truffle", "aliases": ["truffle", "truffles"], "domain": "gourmet_food", "catalog_product_ids": []}
+  ]
+}
